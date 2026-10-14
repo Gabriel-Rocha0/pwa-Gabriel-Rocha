@@ -1,0 +1,53 @@
+{
+  "count": 9,
+  "total": 310,
+  "categories": [
+    "desporto",
+    "fps",
+    "rpg"
+  ],
+  "top3": [
+    {
+      "id": 3,
+      "name": "EA FC 26",
+      "category": "desporto",
+      "price": 70,
+      "tags": [
+        "futebol",
+        "simulacao"
+      ],
+      "studio": {
+        "name": "EA Sports",
+        "country": "CA"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Elden Ring",
+      "category": "rpg",
+      "price": 60,
+      "tags": [
+        "souls",
+        "mundo-aberto"
+      ],
+      "studio": {
+        "name": "FromSoftware",
+        "country": "JP"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Football Manager 26",
+      "category": "desporto",
+      "price": 60,
+      "tags": [
+        "futebol",
+        "gestao"
+      ],
+      "studio": {
+        "name": "Sports Interactive",
+        "country": "UK"
+      }
+    }
+  ]
+}

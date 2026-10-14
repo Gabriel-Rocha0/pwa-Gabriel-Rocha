@@ -1,0 +1,14 @@
+{
+  "name": "twa-ficha02",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ficha 02 — módulo de catálogo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "check": "node check.js"
+  },
+  "keywords": [],
+  "author": "Gabriel Rocha",
+  "license": "ISC"
+}
