@@ -33,5 +33,5 @@ assert.equal(grouped.fps.length, 2)
 assert.equal(grouped.rpg.length, 1)
 
 assert.equal(items.length >= 8, true)
-assert.equal(total(items), 310)
-assert.deepEqual(categories(items), ['desporto', 'fps', 'rpg'])
+assert.equal(total(items), 257000)
+assert.deepEqual(categories(items), ['citadino', 'desportivo', 'suv'])

@@ -1,52 +1,52 @@
 {
   "count": 9,
-  "total": 310,
+  "total": 257000,
   "categories": [
-    "desporto",
-    "fps",
-    "rpg"
+    "citadino",
+    "desportivo",
+    "suv"
   ],
   "top3": [
     {
-      "id": 3,
-      "name": "EA FC 26",
-      "category": "desporto",
-      "price": 70,
+      "id": 8,
+      "name": "BMW Serie 1",
+      "category": "desportivo",
+      "price": 42000,
       "tags": [
-        "futebol",
-        "simulacao"
+        "gasolina",
+        "premium"
       ],
-      "studio": {
-        "name": "EA Sports",
-        "country": "CA"
+      "brand": {
+        "name": "BMW",
+        "country": "DE"
       }
     },
     {
-      "id": 5,
-      "name": "Elden Ring",
-      "category": "rpg",
-      "price": 60,
+      "id": 9,
+      "name": "Audi A3",
+      "category": "desportivo",
+      "price": 40000,
       "tags": [
-        "souls",
-        "mundo-aberto"
+        "gasolina",
+        "premium"
       ],
-      "studio": {
-        "name": "FromSoftware",
+      "brand": {
+        "name": "Audi",
+        "country": "DE"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Toyota RAV4",
+      "category": "suv",
+      "price": 38000,
+      "tags": [
+        "hibrido",
+        "familia"
+      ],
+      "brand": {
+        "name": "Toyota",
         "country": "JP"
-      }
-    },
-    {
-      "id": 4,
-      "name": "Football Manager 26",
-      "category": "desporto",
-      "price": 60,
-      "tags": [
-        "futebol",
-        "gestao"
-      ],
-      "studio": {
-        "name": "Sports Interactive",
-        "country": "UK"
       }
     }
   ]

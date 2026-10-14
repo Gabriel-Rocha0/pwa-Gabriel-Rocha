@@ -4,7 +4,7 @@ export type Item = {
   category: string
   price: number
   tags: string[]
-  studio: { name: string; country: string }
+  brand: { name: string; country: string }
 }
 
 export const byCategory = (list: Item[], cat: string) =>
