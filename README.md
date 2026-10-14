@@ -34,7 +34,7 @@ Abrir o endereço que o Vite mostrar (por norma `http://localhost:5173`). Cada c
 cd twa-ficha02
 node check.js
 node app.js
-node app.js fps
+node app.js suv
 node app.js search hibrido
 node app.js top 3
 node app.js report

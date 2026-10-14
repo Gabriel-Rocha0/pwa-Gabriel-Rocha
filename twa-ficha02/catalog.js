@@ -20,6 +20,10 @@ export const categories = (list) =>
   [...new Set(list.map(({ category }) => category))].toSorted((a, b) => a.localeCompare(b))
 
 export const withDiscount = (list, pct) =>
-  list.map((item) => ({ ...item, price: item.price * (1 - pct / 100) }))
+  list.map((item) => {
+    const copy = structuredClone(item)
+    copy.price = item.price * (1 - pct / 100)
+    return copy
+  })
 
 export const groupByCategory = (list) => Object.groupBy(list, ({ category }) => category)
